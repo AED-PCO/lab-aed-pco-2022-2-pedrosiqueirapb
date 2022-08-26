@@ -1,5 +1,3 @@
-# Documentação Laboratório - Aula 01
-
 **01** - Alguns números de quatro algarismos possuem uma característica particular. Se separamos 
 esse número em dois grupos e os somarmos encontramos um outro número cujo quadrado 
 é exatamente igual ao número fornecido anteriormente. Veja o exemplo:
