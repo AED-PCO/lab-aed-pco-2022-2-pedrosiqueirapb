@@ -1,3 +1,5 @@
+# Documentação Laboratório - Aula 02
+
 01 - Escreva um método recursivo que retorne o fatorial de um número.
 
 
