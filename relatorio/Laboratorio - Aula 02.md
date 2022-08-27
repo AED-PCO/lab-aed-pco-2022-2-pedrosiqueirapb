@@ -51,4 +51,13 @@
 ![Resolucao ex-6](https://user-images.githubusercontent.com/97108963/186996096-be73d145-744d-498a-829c-39452ccd8b64.PNG)
 ![Resposta ex-6](https://user-images.githubusercontent.com/97108963/186972070-c944497b-42c7-4cb6-9a00-c7ae1aeb0ea6.PNG)
 
-**DESCRIÇÃO -** A função recebe a frase digitada pelo usuário como parâmetro e Frase.Length subtraído de 1, pois, a frase é um vetor de caracteres e sua primeira posição é 0, fazendo com que a última seja o tamanho da frase menos 1. Há na função uma condição que retorna a frase caso o seu tamanho seja 0 (isso acontece, pois, se não há nada escrito, não há vogais que possam ser retiradas), se essa condição for falsa a variável *semVogal* retira as vogais da frase através do método Replace(), que substitui as vogais por um espaço vazio, em seguida a função é chamada novamente passando como parâmetros a variável *semVogal* e o tamanho da frase subtraído de 1, para que a cada chamada seja percorrido uma posição da string, até a posição 0. 
+**DESCRIÇÃO -** A função recebe a frase digitada pelo usuário como parâmetro e Frase.Length subtraído de 1, pois, a frase é um vetor de caracteres e sua primeira posição é 0, fazendo com que a última seja o tamanho da frase menos 1. Há na função uma condição que retorna a frase caso o seu tamanho seja 0 (isso acontece, pois, se não há nada escrito, não há vogais que possam ser retiradas), se essa condição for falsa a variável *semVogal* retira as vogais da frase através do método Replace(), que substitui as vogais por um espaço vazio, em seguida a função é chamada novamente passando como parâmetros a variável *semVogal* e o tamanho da frase subtraído de 1, para que a cada chamada seja percorrido uma posição da string, até a posição 0.
+
+---
+
+### **07** - Escreva um método recursivo que receba como parâmetro a posição que se deseja saber da Sequência de Fibonacci.
+
+![Resolucao ex-7](https://user-images.githubusercontent.com/97108963/187046371-a10f62cc-bab0-498a-bf93-f6a8e67ceb29.PNG)
+![Resposta ex-7](https://user-images.githubusercontent.com/97108963/187046372-626523ea-95e2-4a47-bbf4-d52b443b44e3.PNG)
+
+**DESCRIÇÃO -** A função recebe a posição que se deseja saber o valor na Sequência de Fibonacci, se a posição for a 1º o programa retorna o valor 0 e se for a 2º retorna 1 (esses são os dois primeiros valores da sequência por padrão). Caso a posição seja outra, o programa retorna a soma da função pela própria função, sendo que em uma a passagem de parâmetros é feita pela posição subtraída de 1 e na outra a posição é subtraída de 2, isso acontece, pois, um número na Sequência de Fibonacci é o resultado da soma de seus dois números anteriores.
