@@ -1,6 +1,6 @@
 # Documentação Laboratório - Aula 03
 
-### **01** - 
+### **01** - Ordenação binária com pos.
 
 
 
@@ -8,7 +8,7 @@
 
 ---
 
-### **02** - 
+### **02** - Ordenação binária sem pos.
 
 
 
@@ -16,7 +16,7 @@
 
 ---
 
-### **03** - 
+### **03** - Pesquisa binária com pos.
 
 
 
@@ -24,7 +24,7 @@
 
 ---
 
-### **04** - 
+### **04** - Pesquisa binária sem pos.
 
 
 
@@ -32,7 +32,7 @@
 
 ---
 
-### **05** - 
+### **05** - Contador de comparações.
 
 
 
