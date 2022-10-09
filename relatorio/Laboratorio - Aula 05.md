@@ -12,7 +12,7 @@
     
 ### 03 - Sequências e laços:
     A sequência do algoritmo é: uma atribuição, um laço de repetição que executa uma multiplicação n vezes, retorno do resultado da operação.
-    Laço de repetição (for), que começa em n e é decrementado até 2, dentro dele há uma operação para calcular o fatorial de n. Complexidade O(n) para o pior     caso.
+    Laço de repetição (for), que começa em n e é decrementado até 2, dentro dele há uma operação para calcular o fatorial de n. Complexidade O(n) para o pior caso.
 
 ### 04 - Variação de casos:
     Sem variação de casos.
@@ -31,8 +31,8 @@
     if(arr[i] == x)
 
 ### 03 - Sequências e laços:
-    A sequência do algoritmo é: um laço de repetição que percorre os valores de um vetor, nele está contido uma estrutura de condição que retorna um valor       caso essa condição seja verdadeira, a quantidade de comparações é determinada pelo valor atribuído a x e às posições do vetor. Ao final é retornado o         valor -1.
-    Laço de repetição (for), que começa em 0 e é incrementado até arr.Length-1, dentro dele há uma estrutura condicional. Complexidade O(n), sendo n o           tamanho do vetor. No pior caso, x não estará no vetor.
+    A sequência do algoritmo é: um laço de repetição que percorre os valores de um vetor, nele está contido uma estrutura de condição que retorna um valor caso essa condição seja verdadeira, a quantidade de comparações é determinada pelo valor atribuído a x e às posições do vetor. Ao final é retornado o valor -1.
+    Laço de repetição (for), que começa em 0 e é incrementado até arr.Length-1, dentro dele há uma estrutura condicional. Complexidade O(n), sendo n o tamanho do vetor. No pior caso, x não estará no vetor.
 
 ### 04 - Variação de casos:
     Há variações de casos, os valores de entrada e a estrutura condicional serão determinantes para definir a complexidade e a saída do algoritmo.
@@ -52,8 +52,8 @@
     return res
 
 ### 03 - Sequências e laços:
-    A sequência do algoritmo é: um laço de repetição que está contido dentro do outro, sendo que os dois percorrem as posições de um vetor. Dentro do segundo     laço há uma condição que executa uma operação caso pos != j. Ao final o resultado da operação é retornado.
-    Dois laços de repetição (for), que começam em 0 e são incrementados até arr1.Length-1, dentro do segundo laço há uma estrutura condicional. Complexidade     O(n^2) para o pior caso, sendo n o tamanho do vetor. O número de comparações dependerá do tamanho do vetor.
+    A sequência do algoritmo é: um laço de repetição que está contido dentro do outro, sendo que os dois percorrem as posições de um vetor. Dentro do segundo laço há uma condição que executa uma operação caso pos != j. Ao final o resultado da operação é retornado.
+    Dois laços de repetição (for), que começam em 0 e são incrementados até arr1.Length-1, dentro do segundo laço há uma estrutura condicional. Complexidade O(n^2) para o pior caso, sendo n o tamanho do vetor. O número de comparações dependerá do tamanho do vetor.
 
 ### 04 - Variação de casos:
     Sem variação de casos.
@@ -73,8 +73,8 @@
     return vet
 
 ### 03 - Sequências e laços:
-    A sequência do algoritmo é: declaração de um vetor, um laço de repetição que está contido dentro do outro. Logo após ao primeiro laço há uma atribuição à     variável soma, já dentro do segundo laço existem duas operações, uma de soma e a outra de divisão. Ao final do algoritmo o vetor é retornado.
-    Dois laços de repetição (for), que começam em 0 e são incrementados, o primeiro até dados.Length-1 e o segundo até o valor correspondente à                   variável i. Complexidade O(n^2) para o pior caso.
+    A sequência do algoritmo é: declaração de um vetor, um laço de repetição que está contido dentro do outro. Logo após ao primeiro laço há uma atribuição à variável soma, já dentro do segundo laço existem duas operações, uma de soma e a outra de divisão. Ao final do algoritmo o vetor é retornado.
+    Dois laços de repetição (for), que começam em 0 e são incrementados, o primeiro até dados.Length-1 e o segundo até o valor correspondente à variável i. Complexidade O(n^2) para o pior caso.
 
 ### 04 - Variação de casos:
     Sem variação de casos.
