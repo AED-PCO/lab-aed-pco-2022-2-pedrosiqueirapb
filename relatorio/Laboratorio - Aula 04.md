@@ -57,3 +57,9 @@
 ### 03. Selection Sort
 ![ex3.1](https://user-images.githubusercontent.com/97108963/194769680-b1f005b2-9dce-4fa2-ba49-cc851674b8ab.PNG)
 ![ex3.2](https://user-images.githubusercontent.com/97108963/194769682-ee10d3b2-3cf2-4b2f-bcee-6e3d79386207.PNG)
+### 04. Merge Sort
+![Merge Sort](https://user-images.githubusercontent.com/97108963/194940294-61a3c721-cf5e-4539-b742-5ced5f4aa6b8.PNG)
+### 05. Quick Sort
+![Quick Sort](https://user-images.githubusercontent.com/97108963/194940297-2e85c80e-e685-40ce-bb11-e2a13ec2b449.PNG)
+### 06. Shell Sort
+![Shell Sort](https://user-images.githubusercontent.com/97108963/194940291-8f0ac060-1691-4740-a94f-e7169aee2c0f.PNG)
