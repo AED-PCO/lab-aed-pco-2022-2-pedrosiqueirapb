@@ -36,6 +36,6 @@
 
 ### 05 - Contador de comparações.
 
+![ex5](https://user-images.githubusercontent.com/97108963/194961855-8347d4ec-711a-4900-96e0-069b4e3b16d3.PNG)
 
-
-**DESCRIÇÃO:**
+**DESCRIÇÃO:** Em um algoritmo as comparações são feitas nas estruturas 'if' e 'else if'. O código possui 4 estruturas condicionais e por isso, o contador é incrementado de 4 vezes ao final, sendo que o valor correspondente à variável i é comparado em todas essas estruturas e entrará apenas em uma (caso médio). Caso seja atribuído diferentes valores para i, no pior caso a variável será comparada todas as vezes e o resultado será falso em todas elas.
