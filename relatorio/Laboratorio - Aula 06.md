@@ -53,3 +53,13 @@
 ![Terminal](https://user-images.githubusercontent.com/97108963/194930007-bd67db9b-7b37-4947-892b-dc9786d91c91.PNG)
 
 **DESCRIÇÃO -** No programa principal, o método Random atribui números aleatórios para as posições do vetor, após a chamada da função o vetor ordenado é printado na tela. O método de ordenação Shell Sort foi implementado por meio de uma função que recebe como parâmetros o vetor a ser ordenado e o seu tamanho, nela é declarada a variável 'h' que primeiramente recebe (Vetor.Length / 2) e a cada iteração esse valor é dividido por 2 até que chegue em 1, há três laços de repetição (2 for's e while), sendo que a estrutura while é responsável por comparar um valor com outro 'h' posições à sua frente e caso necessário a troca é feita. Esse processo se repete até que todo o vetor esteja ordenado.
+
+---
+
+### 07 - Counting Sort
+
+![ex7.1](https://user-images.githubusercontent.com/97108963/195233259-3abd5768-ef96-4e0b-be47-59ea9a1f51b9.PNG)
+![ex7.2](https://user-images.githubusercontent.com/97108963/195233264-6dbeaf8d-9ba9-4042-a32c-757052dc4ef6.PNG)
+![ex7.3](https://user-images.githubusercontent.com/97108963/195233254-a9275d01-a466-483c-b788-5b90221a7ad5.PNG)
+
+**DESCRIÇÃO -** 
