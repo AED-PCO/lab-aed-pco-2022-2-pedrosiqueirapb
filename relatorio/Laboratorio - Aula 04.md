@@ -63,3 +63,5 @@
 ![Quick Sort](https://user-images.githubusercontent.com/97108963/194940297-2e85c80e-e685-40ce-bb11-e2a13ec2b449.PNG)
 ### 06. Shell Sort
 ![Shell Sort](https://user-images.githubusercontent.com/97108963/194940291-8f0ac060-1691-4740-a94f-e7169aee2c0f.PNG)
+### 07. Counting Sort
+![Counting Sort](https://user-images.githubusercontent.com/97108963/195241517-76783704-8cec-4dd1-aae5-e128fadbbd3d.PNG)
