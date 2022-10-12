@@ -62,4 +62,4 @@
 ![ex7.2](https://user-images.githubusercontent.com/97108963/195233264-6dbeaf8d-9ba9-4042-a32c-757052dc4ef6.PNG)
 ![ex7.3](https://user-images.githubusercontent.com/97108963/195233254-a9275d01-a466-483c-b788-5b90221a7ad5.PNG)
 
-**DESCRIÇÃO -** 
+**DESCRIÇÃO -** Primeiramente, foi criada uma função que retorna o maior número do vetor (MaiorValor). O método de ordenação Counting Sort foi implementado por meio de uma função que recebe como parâmetro o vetor a ser ordenado, nela a função MaiorValor é chamada e é criado um vetor auxiliar que contará a quantidade de ocorrências dos números do vetor principal. Todas as posições do vetor auxiliar são zeradas para começar a contagem, em seguida um laço de repetição é responsável por incrementar +1 na posição correspondente a cada vez que o número aparece no vetor principal, o terceiro laço é responsável por inserir os números nas posições corretas.
