@@ -18,4 +18,10 @@
 
 Observações: considere que o arquivo "entrada.txt" contenha no mínimo uma linha de conteúdo.
 
-### 04 - 
+### 04 - Um banco famoso enfrenta problemas de consulta em seu banco de registros. Dentre os problemas identificados pela gerência está a localização das contas dos seus titulares nas listagens e nos relatórios impressos em diferentes situações. Um especialista de TI sugeriu ordenar as contas por meio dos CPF dos seus n titulares antes das impressões. Dentre alguns algoritmos pré-selecionados para essa ordenação, o especialista escolheu o algoritmo de ordenação por inserção. Se você fosse o especialista, responda:
+**a.** O especialista escolheu um bom algoritmo? Justifique.  
+**b.** Qual algoritmo de ordenação utilizaria?  
+**c.** Descreva quais as operações relevantes.
+**d.** Demonstre a viabilidade da sua solução para 10 registros.  
+
+### 05 - O código a seguir implementa uma função recursiva. Analise-o e indique o que será retornado plea função, caso os parâmetros possuam os seguintes dados: v = {10, 5, 7, 15, 22, 9, 30} e a = 6.
