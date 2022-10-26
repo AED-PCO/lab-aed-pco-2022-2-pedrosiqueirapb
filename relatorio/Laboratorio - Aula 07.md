@@ -21,7 +21,8 @@
 ![Ex2](https://user-images.githubusercontent.com/97108963/198042500-fe0863cc-5038-42e8-8080-4408c8568cb2.PNG)  
 ![Ex2](https://user-images.githubusercontent.com/97108963/198042497-2a74d32b-a12c-41a8-a87a-af0091d3bc5d.PNG)  
 **c.** Represente a pilha de execução para a chamada funcRec1(6).  
-**Resposta:** a = 6  
+**Resposta:**  
+a = 6  
 1º chamada recursiva: funcRec1((6-2)+5) ... funcRec1(9)   
 2º chamada recursiva: funcRec1((9-2)+5) ... funcRec1(12)  
 3º chamada recursiva: funcRec1((12-2)+5) ... funcRec1(15)  
@@ -32,7 +33,8 @@
 ### 03 - Modele, projete e calcule a complexidade de um programa que:
 **a.** Leia a primeira linha de um arquivo chamado "entrada.txt".  
 **b.** Escreva em um arquivo chamado "saida.txt" o conteúdo lido no arquivo de entrada ao contrário.  
-**Observações:** considere que o arquivo "entrada.txt" contenha no mínimo uma linha de conteúdo.  
+**Observações:** considere que o arquivo "entrada.txt" contenha no mínimo uma linha de conteúdo.
+
 ![Ex3](https://user-images.githubusercontent.com/97108963/197834072-bdc2d019-dd73-4302-85ba-8e650a279893.PNG)  
 ![arqEx3 1](https://user-images.githubusercontent.com/97108963/197834076-a14a6882-f7f1-4be1-b58e-65ad56f0b5b2.PNG)  
 ![arqEx3 2](https://user-images.githubusercontent.com/97108963/197834078-bc3122fe-f0ac-4267-828a-02980fa6200a.PNG)  
