@@ -30,6 +30,8 @@ a = 6
 5º chamada recursiva: funcRec1((18-2)+5) ... funcRec1(21)  
 6º chamada recursiva: funcRec1((21-2)+5) ... funcRec1(24)  
 
+![Ex2](https://user-images.githubusercontent.com/97108963/198102727-661eacbd-9e4a-4173-bd05-209008847ded.PNG)  
+
 ### 03 - Modele, projete e calcule a complexidade de um programa que:
 **a.** Leia a primeira linha de um arquivo chamado "entrada.txt".  
 **b.** Escreva em um arquivo chamado "saida.txt" o conteúdo lido no arquivo de entrada ao contrário.  
@@ -43,6 +45,8 @@ a = 6
 string linha = sr.ReadLine()  
 sw.Write(linha[i])  
 A complexidade do algoritmo é O(n).  
+
+![Ex3](https://user-images.githubusercontent.com/97108963/198102722-612b6940-9049-48f1-83bb-0ba5ca42f6d9.PNG)  
 
 ### 04 - Um banco famoso enfrenta problemas de consulta em seu banco de registros. Dentre os problemas identificados pela gerência está a localização das contas dos seus titulares nas listagens e nos relatórios impressos em diferentes situações. Um especialista de TI sugeriu ordenar as contas por meio dos CPF dos seus n titulares antes das impressões. Dentre alguns algoritmos pré-selecionados para essa ordenação, o especialista escolheu o algoritmo de ordenação por inserção. Se você fosse o especialista, responda:
 **a.** O especialista escolheu um bom algoritmo? Justifique.  
