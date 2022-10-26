@@ -58,6 +58,7 @@ A complexidade do algoritmo é O(n).
 
 ### 05 - O código a seguir implementa uma função recursiva. Analise-o e indique o que será retornado pela função, caso os parâmetros possuam os seguintes dados: v = {10, 5, 7, 15, 22, 9, 30} e a = 6.
 ![Ex5](https://user-images.githubusercontent.com/97108963/198041848-d4078d3a-e3eb-4ebd-b210-c503cc847558.PNG)  
-**Resposta:** A função retornará o número 22, que está na posição 4 do vetor  
+**Resposta:** A função recursiva se chama até a = 1, a partir daí, as chamadas serão desempilhadas e quando entrarem na estrutura condicional abaixo da chamada da função, ela retornará o número 22, que está na posição 4 do vetor.
+
 ![Ex5](https://user-images.githubusercontent.com/97108963/198055123-151b64a7-9339-4a6e-9084-5dbd1bb06e68.PNG)  
 
