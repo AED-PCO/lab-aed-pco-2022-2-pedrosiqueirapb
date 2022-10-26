@@ -9,7 +9,7 @@
 ### 02 - Dado o código a seguir, responda:
 ![Ex2](https://user-images.githubusercontent.com/97108963/197843649-21904d7c-529d-47b1-84e8-899313a555a3.PNG)  
 **a.** Quantos e quais são os casos base/condições de parada para a função funcRec1()?  
-**Resposta:** Para essa chamada recursiva, existe apenas uma condição de parada, que retorna 0 caso o número de entrada seja menor ou igual a 1.  
+**Resposta:** Para essa chamada recursiva, existe apenas uma condição de parada, que retorna 0 caso o número de entrada seja menor ou igual a 1. A partir disso, as chamadas são desempilhadas.    
 ![Ex2](https://user-images.githubusercontent.com/97108963/197845231-f7ec6e4b-5f31-47ef-8381-0b12f6853b7a.PNG)    
 **b.** Explique com suas palavras o que a função funcRec1() calcula.  
 **Resposta:** A função se chama recursivamente, passando como parâmetro o valor de entrada subtraído de 2 e somado de 5 quando esse for maior do que 1, a condição de parada nunca será satisfeita nesse caso, já que para isso o número precisa ser menor ou igual a 1, o que leva a um looping infinito até que o compilador não consiga mais executá-lo.  
@@ -17,7 +17,7 @@
 1º chamada recursiva: funcRec1((2-2)+5) ... funcRec1(5)  
 2º chamada recursiva: funcRec1((5-2)+5) ... funcRec1(8)  
 3º chamada recursiva: funcRec1((8-5)+5) ... funcRec1(11)  
-**Exemplo na prática:**  
+**Execução do código:**  
 ![Ex2](https://user-images.githubusercontent.com/97108963/198042500-fe0863cc-5038-42e8-8080-4408c8568cb2.PNG)  
 ![Ex2](https://user-images.githubusercontent.com/97108963/198042497-2a74d32b-a12c-41a8-a87a-af0091d3bc5d.PNG)  
 **c.** Represente a pilha de execução para a chamada funcRec1(6).  
@@ -40,7 +40,7 @@
 **Resposta:** As operações relevantes são: atribuição, leitura do arquivo e escrita no outro arquivo.   
 string linha = sr.ReadLine()  
 sw.Write(linha[i])  
-Complexidade O(n)  
+A complexidade do algoritmo é O(n).  
 
 ### 04 - Um banco famoso enfrenta problemas de consulta em seu banco de registros. Dentre os problemas identificados pela gerência está a localização das contas dos seus titulares nas listagens e nos relatórios impressos em diferentes situações. Um especialista de TI sugeriu ordenar as contas por meio dos CPF dos seus n titulares antes das impressões. Dentre alguns algoritmos pré-selecionados para essa ordenação, o especialista escolheu o algoritmo de ordenação por inserção. Se você fosse o especialista, responda:
 **a.** O especialista escolheu um bom algoritmo? Justifique.  
@@ -50,7 +50,8 @@ Complexidade O(n)
 **c.** Descreva quais as operações relevantes.  
 **Resposta:** As operações relevantes são de dividir o vetor ao meio sucessivamente, comparar os números dos subvetores e ordená-los.  
 **d.** Demonstre a viabilidade da sua solução para 10 registros.  
-**Resposta:** Para 50000 registros o tempo de execução foi de 01 minuto e 43 segundos. Segue abaixo a solução para 10 registros.
+**Resposta:** Para 50000 registros o tempo de execução foi de 01:43. Segue abaixo a solução para 10 registros:
+
 ![Ex4](https://user-images.githubusercontent.com/97108963/198063908-35875572-f410-4d45-9192-091fc4fcb004.png)  
 ![Ex4](https://user-images.githubusercontent.com/97108963/198062923-26c059e4-6e47-4018-8ee2-e675b48ff193.PNG)  
 ![Ex4](https://user-images.githubusercontent.com/97108963/198062925-546a5cb8-7d73-440b-aee0-5981e78ee756.PNG)  
