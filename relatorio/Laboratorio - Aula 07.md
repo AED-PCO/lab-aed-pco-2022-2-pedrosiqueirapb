@@ -3,7 +3,8 @@
 ### 01 - Modele, projete e calcule a complexidade de um programa que:
 **a.** Leia as linhas de um arquivo chamado "arq1.txt".  
 **b.** Peça para o usuário inserir um texto no terminal/console.  
-**c.** Compare o texto escrito pelo usuário e o texto lido no arquivo, e escreva na tela quantos termos "IGUAIS" e "DIFERENTE".  
+**c.** Compare o texto escrito pelo usuário e o texto lido no arquivo, e escreva na tela quantos termos "IGUAIS" e "DIFERENTE".
+
 ![Ex1](https://user-images.githubusercontent.com/97108963/198106486-4d5eeabf-91f3-4b68-9d91-14a9c5efbfd1.PNG)  
 ![Ex1](https://user-images.githubusercontent.com/97108963/198106569-276bd8e8-856c-4e4e-b7e8-38d359a34715.PNG)  
 ![Ex1](https://user-images.githubusercontent.com/97108963/198107313-64d1dda8-a1e5-47db-be70-57d57212b92c.PNG)  
@@ -14,8 +15,7 @@
 ![Ex2](https://user-images.githubusercontent.com/97108963/197843649-21904d7c-529d-47b1-84e8-899313a555a3.PNG)  
 **a.** Quantos e quais são os casos base/condições de parada para a função funcRec1()?  
 **Resposta:** Para essa chamada recursiva, existe apenas uma condição de parada, que retorna 0 caso o número de entrada seja menor ou igual a 1. A partir disso, as chamadas são desempilhadas.  
-![Ex2](https://user-images.githubusercontent.com/97108963/197845231-f7ec6e4b-5f31-47ef-8381-0b12f6853b7a.PNG)
-
+![Ex2](https://user-images.githubusercontent.com/97108963/197845231-f7ec6e4b-5f31-47ef-8381-0b12f6853b7a.PNG)  
 **b.** Explique com suas palavras o que a função funcRec1() calcula.  
 **Resposta:** A função se chama recursivamente, passando como parâmetro o valor de entrada subtraído de 2 e somado de 5 quando esse for maior do que 1, a condição de parada nunca será satisfeita nesse caso, já que para isso o número precisa ser menor ou igual a 1, o que leva a um looping infinito até que o compilador não consiga mais executá-lo.  
 **Exemplo:** a = 2  
@@ -24,8 +24,7 @@
 3º chamada recursiva: funcRec1((8-5)+5) ... funcRec1(11)  
 **Execução do código:**  
 ![Ex2](https://user-images.githubusercontent.com/97108963/198042500-fe0863cc-5038-42e8-8080-4408c8568cb2.PNG)  
-![Ex2](https://user-images.githubusercontent.com/97108963/198042497-2a74d32b-a12c-41a8-a87a-af0091d3bc5d.PNG)
-
+![Ex2](https://user-images.githubusercontent.com/97108963/198042497-2a74d32b-a12c-41a8-a87a-af0091d3bc5d.PNG)  
 **c.** Represente a pilha de execução para a chamada funcRec1(6).  
 **Resposta:**  
 a = 6  
