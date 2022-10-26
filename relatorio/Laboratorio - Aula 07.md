@@ -7,7 +7,7 @@
 **d.** Descreva quais as operações relevantes.   
 
 ### 02 - Dado o código a seguir, responda:
-![codigoEx2](https://user-images.githubusercontent.com/97108963/197843649-21904d7c-529d-47b1-84e8-899313a555a3.PNG)  
+![Ex2](https://user-images.githubusercontent.com/97108963/197843649-21904d7c-529d-47b1-84e8-899313a555a3.PNG)  
 **a.** Quantos e quais são os casos base/condições de parada para a função funcRec1()?  
 **Resposta:** Para essa chamada recursiva, existe apenas uma condição de parada, que retorna 0 caso o número de entrada seja menor ou igual a 1.  
 ![Ex2](https://user-images.githubusercontent.com/97108963/197845231-f7ec6e4b-5f31-47ef-8381-0b12f6853b7a.PNG)    
@@ -17,9 +17,11 @@
 1º chamada recursiva: funcRec1((2-2)+5) ... funcRec1(5)  
 2º chamada recursiva: funcRec1((5-2)+5) ... funcRec1(8)  
 3º chamada recursiva: funcRec1((8-5)+5) ... funcRec1(11)  
+**Exemplo na prática:**  
+![Ex2](https://user-images.githubusercontent.com/97108963/198042500-fe0863cc-5038-42e8-8080-4408c8568cb2.PNG)  
+![Ex2](https://user-images.githubusercontent.com/97108963/198042497-2a74d32b-a12c-41a8-a87a-af0091d3bc5d.PNG)  
 **c.** Represente a pilha de execução para a chamada funcRec1(6).  
-**Resposta:**  
-a = 6
+**Resposta:** a = 6  
 1º chamada recursiva: funcRec1((6-2)+5) ... funcRec1(9)   
 2º chamada recursiva: funcRec1((9-2)+5) ... funcRec1(12)  
 3º chamada recursiva: funcRec1((12-2)+5) ... funcRec1(15)  
@@ -48,6 +50,13 @@ Complexidade O(n)
 **c.** Descreva quais as operações relevantes.  
 **Resposta:** As operações relevantes são de dividir o vetor ao meio sucessivamente, comparar os números dos subvetores e ordená-los.  
 **d.** Demonstre a viabilidade da sua solução para 10 registros.  
+**Resposta:** Para 50000 registros o tempo de execução foi de 01 minuto e 43 segundos. Segue abaixo a solução para 10 registros.
+![Ex4](https://user-images.githubusercontent.com/97108963/198063908-35875572-f410-4d45-9192-091fc4fcb004.png)  
+![Ex4](https://user-images.githubusercontent.com/97108963/198062923-26c059e4-6e47-4018-8ee2-e675b48ff193.PNG)  
+![Ex4](https://user-images.githubusercontent.com/97108963/198062925-546a5cb8-7d73-440b-aee0-5981e78ee756.PNG)  
 
+### 05 - O código a seguir implementa uma função recursiva. Analise-o e indique o que será retornado pela função, caso os parâmetros possuam os seguintes dados: v = {10, 5, 7, 15, 22, 9, 30} e a = 6.
+![Ex5](https://user-images.githubusercontent.com/97108963/198041848-d4078d3a-e3eb-4ebd-b210-c503cc847558.PNG)  
+**Resposta:** A função retornará o número 22, que está na posição 4 do vetor  
+![Ex5](https://user-images.githubusercontent.com/97108963/198055123-151b64a7-9339-4a6e-9084-5dbd1bb06e68.PNG)  
 
-### 05 - O código a seguir implementa uma função recursiva. Analise-o e indique o que será retornado plea função, caso os parâmetros possuam os seguintes dados: v = {10, 5, 7, 15, 22, 9, 30} e a = 6.
