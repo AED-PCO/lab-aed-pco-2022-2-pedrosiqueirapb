@@ -3,8 +3,14 @@
 ### 01 - Modele, projete e calcule a complexidade de um programa que:
 **a.** Leia as linhas de um arquivo chamado "arq1.txt".  
 **b.** Peça para o usuário inserir um texto no terminal/console.  
-**c.** Compare o texto escrito pelo usuário e o texto lido no arquivo, e escreva na tela quantos termos "IGUAIS" e "DIFERENTE".  
-**d.** Descreva quais as operações relevantes.   
+**c.** Compare o texto escrito pelo usuário e o texto lido no arquivo, e escreva na tela quantos termos "IGUAIS" e "DIFERENTE".
+
+![Ex1](https://user-images.githubusercontent.com/97108963/198106486-4d5eeabf-91f3-4b68-9d91-14a9c5efbfd1.PNG)  
+![Ex1](https://user-images.githubusercontent.com/97108963/198106569-276bd8e8-856c-4e4e-b7e8-38d359a34715.PNG)  
+![Ex1](https://user-images.githubusercontent.com/97108963/198107313-64d1dda8-a1e5-47db-be70-57d57212b92c.PNG)
+
+**d.** Descreva quais as operações relevantes.  
+**Resposta:** As operações relevantes são: atribuições, comparações, leitura do arquivo e a criação de dois vetores. A complexidade do algoritmo é O(n^2).
 
 ### 02 - Dado o código a seguir, responda:
 ![Ex2](https://user-images.githubusercontent.com/97108963/197843649-21904d7c-529d-47b1-84e8-899313a555a3.PNG)  
