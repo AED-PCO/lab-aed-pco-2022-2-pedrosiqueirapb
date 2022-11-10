@@ -16,6 +16,6 @@
 
 ---
 
-### 03 - Passar uma lista para outra com o dobro do tamanho que tenha a primeira metade na ordem normal e a segunda metade na ordem inversa.
+### 03 - Passar uma lista para outra com o dobro do tamanho, com a primeira metade na ordem normal e a segunda metade na ordem inversa.
 
 ![Lista](https://user-images.githubusercontent.com/97108963/200976346-4a9ec308-e92b-4a30-a543-20fddebeef16.PNG)
