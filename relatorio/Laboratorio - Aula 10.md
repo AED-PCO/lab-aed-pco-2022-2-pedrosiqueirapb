@@ -6,11 +6,15 @@
 
 * 
 
+---
+
 ### 02 - Fila com classes.
 
 ![Fila](https://user-images.githubusercontent.com/97108963/207882590-aee2c0c6-7555-424f-9008-09946d03246e.PNG)
 
 * 
+
+---
 
 ### 03 - Lista com classes.
 
