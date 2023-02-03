@@ -1,5 +1,3 @@
-﻿/* 10, 100, 500, 1000, 5000, 10000 */
-
 Random numAleatorio = new Random();
 
 int[] vet = new int [10];
